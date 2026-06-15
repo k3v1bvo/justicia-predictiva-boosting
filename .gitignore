@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Entornos virtuales
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Datos procesados (se generan con notebook 02)
+data/processed/*.csv
+casos_procesados.csv
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Archivos temporales
+*.tmp
+*.log
